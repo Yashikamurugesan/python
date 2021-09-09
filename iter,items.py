@@ -419,5 +419,14 @@ City Mecheri
 Name Sivam
 Age 34
 City Salem
->>> 
+>>> for i in data.items().send
+SyntaxError: invalid syntax
+>>> for i in data.items().send:
+	print(i)
 
+	
+Traceback (most recent call last):
+  File "<pyshell#84>", line 1, in <module>
+    for i in data.items().send:
+TypeError: 'builtin_function_or_method' object is not iterable
+>>> 
