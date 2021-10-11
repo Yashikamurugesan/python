@@ -404,7 +404,7 @@ NameError: name 'df' is not defined
 749            6      162  ...   50        1
 
 [8 rows x 9 columns]
->>> g=data.groupby(['Age','Outcome'])
+>>> g=data.groupby([z;  'Age','Outcome'])
 >>> g.get_group(50,0)
 Traceback (most recent call last):
   File "<pyshell#58>", line 1, in <module>
